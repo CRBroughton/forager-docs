@@ -11,8 +11,8 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'App', link: 'https://forager.crbroughton.me' },
-      { text: 'Github', link: 'https://placeholder.com' },
-      { text: 'Portfolio', link: 'https://placeholder.com' }
+      { text: 'Github', link: 'https://github.com/CRBroughton' },
+      { text: 'Portfolio', link: 'https://crbroughton.me' }
     ]
   },
 };
