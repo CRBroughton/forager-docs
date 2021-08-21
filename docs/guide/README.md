@@ -44,6 +44,10 @@ Markers can be updated simply by clicking the given marker. Currently [Forager](
 
 Tooltips show above each marker and show the markers names, as well as the last time that food was foraged. Marker tooltips can be toggled via the tooltip toggle button in the drop down menu.
 
+### Search
+
+The search function allows you to filter your markers via the input box. Each filtered item can then be clicked on, moving you to that filtered marker.
+
 ### Distance Calculator
 
 The distance calculator can be activated via the drop down menu. Doing so will cause the calculator to appear on the bottom of the screen and highlight the distance calculator button with a red border. Simply click any marker, followed by another to get the distance in both Kilometres and Miles.
