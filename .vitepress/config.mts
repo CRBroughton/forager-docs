@@ -11,7 +11,6 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -32,24 +31,24 @@ export default defineConfig({
           {
             text: "Account creation", link: '/guide/account-creation'
           },
-          {
-            text: "Features", link: "/guide/features"
-          },
-          {
-            text: "Hosting", link: "/guide/hosting"
-          },
+          // {
+          //   text: "Features", link: "/guide/features"
+          // },
+          // {
+          //   text: "Hosting", link: "/guide/hosting"
+          // },
           {
             text: "Building Forager from source", link: "/guide/building-forager-from-source"
           }
         ]
       },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+      // {
+      //   text: 'Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // }
     ],
 
     socialLinks: [

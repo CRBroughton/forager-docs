@@ -7,7 +7,7 @@ To build Forager from source, you will require the following:
 - node 18.16.0
 - npm 9.5.1
 - pnpm 8.10.0
-- go 1.20+ (this is version Forager is built against)
+- go 1.20
 - [taskfile](https://taskfile.dev/) - Automates the build process
 
 With the above installed, you are now ready to build Forager.
