@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Forager",
-  description: "A VitePress Site",
+  description: "Web based application for mapping publicly accessible foods",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
