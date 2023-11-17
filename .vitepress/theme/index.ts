@@ -8,6 +8,7 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
+      head: [['link', { rel: 'icon', href: '/favicon.ico' }]]
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     })
   },
