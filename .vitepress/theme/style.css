@@ -148,3 +148,9 @@
     align-items: center;
   }
 }
+
+.custom-image {
+  display: flex; 
+  justify-content: center; 
+  padding-block: 50px;
+}

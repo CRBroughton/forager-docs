@@ -13,6 +13,10 @@ account; Visiting http://127.0.0.1:8090 should now present you
 with the Forager account create & login page
 (note, these two URL's are slightly different).
 
+When creating an account, you'll need to provide a Mapbox API access token
+to enable all of Foragers features. You can get a Mapbox API access token
+for free from [Mapbox](https://account.mapbox.com/).
+
 By default, account creation is enabled; If you wish to disable
 account creation, you can do so by visiting http://127.0.0.1:8090/_
 , entering the 'Services' table on the left-hand side of the
