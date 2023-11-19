@@ -23,3 +23,17 @@ account creation, you can do so by visiting http://127.0.0.1:8090/_
 Pocketbase interface. This table hosts all of the feature-flags
 for Forager; Disabling the 'canCreateAccounts' flag and saving
 will disable account creation from the Forager login page.
+
+## Setting your home location
+
+When you first login to Forager, you will be required to set
+your home location. This location will be used on launch of
+the application to set the maps position and for you to easily
+re-center your position:
+
+<div class="custom-image">
+    <img src="/set-home-location.png" width="400" loading="lazy" />
+</div>
+
+With your home location set, you can now start to explore
+some of Foragers features.

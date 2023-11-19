@@ -2,13 +2,19 @@
 
 The aim of Forager is to provide you with the tools required
 for successful foraging. Currently, Forager supports and
-provides the follownig:
+provides the following:
 
 - Pinning locations of interest (items) on the map
 - Clustering locations of interest when zoomed out
 - Adding reference images for items
 - Setting a home location for a given user
 - GPS location tracking
+
+<!-- ## EXPLAIN SERVER STATUS DOT -->
+<!-- 
+## Side menu
+
+EXPLAIN THE SIDE MENU -->
 
 ## Pinning items
 
@@ -25,26 +31,22 @@ you are wishing to add:
 
 By default, this menu will be empty as you'll be required
 to add the items of interest you're likely to find throughout
-your travels. This can be done in the settings menu.
-
-It is also possible to add arbitrary items to the map that
-aren't associated with a given image; The 'Create' button
-in the top-left corner of the contextual menu will reveal
-the ability to add items with custom attributes. This can
-be useful if you are wishing to add items to the map that
-aren't necessarily foragable items, but items of interest,
-such as landmarks. 
+your travels. This can be done in the Settings menu.
 
 ## Adding new items
 
 To add a new item of interest, you can use the Images menu:
 
-<!-- ADD UPDATED IMAGE INCLUDING THE CALENDAR COMPONENT -->
+<div class="custom-image">
+    <img src="/images-menu.png" width="400" loading="lazy" />
+</div>
 
-Every item (except arbitrary items) is associated with an image of the item in question.
+Every item is associated with an image of the item in question.
 In this menu, you can add new image with any publicly available URL,
 as well as a name and colour, so you can easily identify the
-item in question in menus, as well as on the map.
+item in question in menus, as well as on the map. Every item
+should be set with a start month and an end month, signifying
+when the item is expected to be in season and fall out of season.
 
 Once the new image has been added, it will be immediately available to use.
 
@@ -68,7 +70,7 @@ Here, the contextual menu will show the following information:
 - When the item is first in season
 - When the item falls out of season
 
-It is also possible to forage the item from this menu; When 
+It is also possible to forage the item from this menu; when 
 performing this action, the item will be set to a grey colour on
 the map to indicate you have already foraged this item today. The colour
 will be reset the following day.
@@ -77,3 +79,43 @@ This same contextual menu provides the option to delete a given item.
 Please be aware that as of time of writing, there is no confirmation
 of deletion. Deleting an item removes the item from the map, and
 deletes all associated data from the database.
+
+## Landmarks
+
+Similar to items, landmarks can be placed onto the map via the
+popup contextual menu with the plus icon. Once clicked, the
+Landmarks menu will appear:
+
+<div class="custom-image">
+    <img src="/create-landmark-menu.png" width="400" loading="lazy" />
+</div>
+
+Once added, the landmark will
+appear on the map:
+
+<div class="custom-image">
+    <img src="/landmark.png" width="400" loading="lazy" />
+</div>
+
+Landmarks can be clicked, revealing
+the landmark menu. From here,
+you can delete a given landmark:
+
+<div class="custom-image">
+    <img src="/landmark-menu.png" width="400" loading="lazy" />
+</div>
+
+
+## GPS tracking
+
+Forager features GPS tracking, allow you to track your location
+as you travel. Simply press the GPS button in the top-left corner
+to enable GPS tracking. All tracking is performed locally on your
+devices GPS. 
+
+Dragging on the map will remove follow-mode. To re-enable
+follow-mode, simply press the GPS button again.
+
+To turn off GPS tracking, press the button until the GPS tracking
+button is no longer blue.
+
