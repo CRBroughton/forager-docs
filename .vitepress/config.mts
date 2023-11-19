@@ -31,9 +31,9 @@ export default defineConfig({
           {
             text: "Account creation", link: '/guide/account-creation'
           },
-          // {
-          //   text: "Features", link: "/guide/features"
-          // },
+          {
+            text: "Features", link: "/guide/features"
+          },
           // {
           //   text: "Hosting", link: "/guide/hosting"
           // },

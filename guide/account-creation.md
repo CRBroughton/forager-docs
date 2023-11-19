@@ -13,9 +13,27 @@ account; Visiting http://127.0.0.1:8090 should now present you
 with the Forager account create & login page
 (note, these two URL's are slightly different).
 
+When creating an account, you'll need to provide a Mapbox API access token
+to enable all of Foragers features. You can get a Mapbox API access token
+for free from [Mapbox](https://account.mapbox.com/).
+
 By default, account creation is enabled; If you wish to disable
 account creation, you can do so by visiting http://127.0.0.1:8090/_
 , entering the 'Services' table on the left-hand side of the
 Pocketbase interface. This table hosts all of the feature-flags
 for Forager; Disabling the 'canCreateAccounts' flag and saving
 will disable account creation from the Forager login page.
+
+## Setting your home location
+
+When you first login to Forager, you will be required to set
+your home location. This location will be used on launch of
+the application to set the maps position and for you to easily
+re-center your position:
+
+<div class="custom-image">
+    <img src="/set-home-location.png" width="400" loading="lazy" />
+</div>
+
+With your home location set, you can now start to explore
+some of Foragers features.
