@@ -8,7 +8,9 @@ provides the following:
 - Clustering locations of interest when zoomed out
 - Adding reference images for items
 - Setting a home location for a given user
+- Adding Landmarks to the map
 - GPS location tracking
+- Server status updates
 
 ## Side menu
 
