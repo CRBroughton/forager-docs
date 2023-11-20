@@ -130,3 +130,14 @@ follow-mode, simply press the GPS button again.
 To turn off GPS tracking, press the button until the GPS tracking
 button is no longer blue.
 
+## Server connection
+
+In the top-left corner of the UI, there is a green or red dot
+denoting the current server status. If the dot is green, Forager
+is able to detect a healthy connection to your server.
+
+If the dot is red, Forager is unable to communicate with your
+server; Any actions taken whilst this dot is red may function
+incorrectly, such as attempting to save new items or landmarks
+to your account.
+
