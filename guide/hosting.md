@@ -7,7 +7,7 @@ As with all applications, Forager requires a computer or server to host from. As
 ## NGINX
 
 The below [NGINX](https://www.nginx.com) configuration is just one possibility of deploying
-Forager (this can also be found on [Pocketbases website](v)):
+Forager (this can also be found on [Pocketbases website](https://pocketbase.io/docs/going-to-production#using-reverse-proxy)):
 
 ```nginx
 # An example NGINX configuration for Forager / Pocketbase.
@@ -47,9 +47,9 @@ server {
 
 Forager includes support for Docker with Docker Compose to aid
 with hosting. I would recommend reading through 
-[the Docker section on the installation page](installation.html#docker).
+[the Docker section on the installation page](./installation.html#docker).
 
 If you wish to not have to clone down the repository,
 you can also simply copy and paste both the 
 [Dockerfile](https://raw.githubusercontent.com/CRBroughton/Forager/master/Dockerfile), as well as the [docker-compose.yml file](https://raw.githubusercontent.com/CRBroughton/Forager/master/docker-compose.yml) into a folder of your choice, and then follow the rest of the
-[Docker instructions here](installation.html#docker).
+[Docker instructions here](./installation.html#docker).
