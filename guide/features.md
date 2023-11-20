@@ -10,11 +10,22 @@ provides the following:
 - Setting a home location for a given user
 - GPS location tracking
 
-<!-- ## EXPLAIN SERVER STATUS DOT -->
-<!-- 
 ## Side menu
 
-EXPLAIN THE SIDE MENU -->
+With your account created and a home location set, you'll
+now be able to see the side menu button on the right most side
+of the screen. Pressing this button will toggle the hidden menu.
+This menu is home to both functions, as well
+as menus you'll be able to open and interact with.
+
+The below lists and details each item:
+
+- Settings - Opens the settings menu
+- Home - Returns your map position to your home location
+- Logout - Logs you out of Forager and returns you to the
+login page
+
+In the future, this menu may be home to additional functionality.
 
 ## Pinning items
 
