@@ -34,9 +34,9 @@ export default defineConfig({
           {
             text: "Features", link: "/guide/features"
           },
-          // {
-          //   text: "Hosting", link: "/guide/hosting"
-          // },
+          {
+            text: "Hosting", link: "/guide/hosting"
+          },
           {
             text: "Building Forager from source", link: "/guide/building-forager-from-source"
           }

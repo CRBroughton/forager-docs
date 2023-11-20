@@ -19,4 +19,8 @@ so your operating system picks up the binary by default.
 The Forager repository includes a `docker-compose.yml` file, enabling quick deployment of Forager. Simply install Docker, clone the repository and then run `docker compose up -d`. Forager will
 now be running at http://0.0.0.0:8090.
 
+Forager will attempt to mount a local volume to `./forager`;
+If this is not desirable, feel free to change the volumes
+mounting point in the `docker-compose.yml` file to somewhere else.
+
 
