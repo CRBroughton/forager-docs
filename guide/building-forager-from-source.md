@@ -37,7 +37,8 @@ task build
 task linux64
 ```
 
-The support architectures are `linux32`, `linux64`, `windows64`,
+The support architectures are 
+`linux32`, `linux64`, `linuxarm`, `linuxarm64`, `windows64`,
  `apple`, and `applesilicon`.
 
 Once a binary is built, you can find it in the `build` folder,
