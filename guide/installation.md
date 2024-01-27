@@ -24,3 +24,19 @@ If this is not desirable, feel free to change the volumes
 mounting point in the `docker-compose.yml` file to somewhere else.
 
 
+### Progressive Web Application (PWA)
+
+Forager is a PWA; Forager's front-end can be installed directly
+through your devices browser if supported. As an example,
+here Forager being installed through the Chrome desktop browser:
+
+<div class="custom-image">
+    <img src="/pwa-desktop-installation.png" width="400" loading="lazy" />
+</div>
+
+By clicking the 'Install' button in the browser, a installation
+popup will appear, allowing you to install Forager. Once installed,
+Forager will appear alongside your other applications.
+
+Forager can also be installed with the same method
+for your mobile device's browser.

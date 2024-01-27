@@ -37,9 +37,28 @@ task build
 task linux64
 ```
 
-The support architectures are `linux32`, `linux64`, `windows64`,
+The support architectures are 
+`linux32`, `linux64`, `linuxarm`, `linuxarm64`, `windows64`,
  `apple`, and `applesilicon`.
 
 Once a binary is built, you can find it in the `build` folder,
 zipped up with the version number and architecture as part of the
 filename.
+
+## Available Commands
+
+Forager comes equipped with various commands, all of which can
+be run with `pnpm run COMMAND_NAME`:
+
+- `dev` - Runs the front end development server
+- `build` - Builds the front end
+- `pnpm:check` - Checks for new front end dependencies
+- `type:check` - Checks for type errors in the front end
+- `lint:check` - Checks for linting issues in the front end
+- `lint:fix` - Automatically fixes linting issues in the front end
+- `pocketbase:serve` - Run the back end server
+- `pocketbase:seed` - Seeds the database
+- `pocketbase:types` - Generates the back end types
+- `pocketbase:migrate` - Migrates the database
+- `pocketbase:migrate:down` - Rolls back the last migration
+- `pocketrbase:migrate:create` - Creates a new migration file
