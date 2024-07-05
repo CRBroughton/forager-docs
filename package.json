@@ -2,7 +2,6 @@
   "name": "forager-docs",
   "version": "1.0.0",
   "description": "Documentation for forager.crbroughton.me",
-  "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
@@ -11,10 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.0.0-rc.25",
-    "vuepress": "^1.8.2"
+    "vitepress": "1.2.3"
   },
   "dependencies": {
-    "vue": "^3.3.8"
+    "vue": "^3.4.21"
   }
 }
